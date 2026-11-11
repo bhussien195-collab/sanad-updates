@@ -1,0 +1,115 @@
+{
+  "versionCode": 4,
+  "versionName": "1.3",
+  "plans": [
+    {
+      "id": "free",
+      "no": 0,
+      "nameAr": "المجانية (Free)",
+      "nameEn": "Free",
+      "taglineAr": "لتجربة المنظومة والمتاجر الناشئة",
+      "monthly": 0,
+      "yearly": 0,
+      "currency": "USD",
+      "trialDays": 0,
+      "maxUsers": 1,
+      "maxAdminDevices": 1,
+      "maxBranches": 1,
+      "maxWarehouses": 1,
+      "allowCloudBackup": false,
+      "maxInvoices": 0,
+      "maxItems": 0,
+      "popular": false,
+      "enabled": true,
+      "featuresAr": [
+        "فواتير وأصناف وعمليات محاسبية غير محدودة (∞)",
+        "عامل واحد + جهاز مدير واحد",
+        "فرع واحد ومستودع واحد",
+        "نسخ احتياطي محلي مشفر (AES-256-GCM)"
+      ]
+    },
+    {
+      "id": "starter",
+      "no": 1,
+      "nameAr": "برو (Pro)",
+      "nameEn": "Pro",
+      "taglineAr": "للمتاجر والشركات الصغيرة",
+      "monthly": 15,
+      "yearly": 150,
+      "currency": "USD",
+      "trialDays": 14,
+      "maxUsers": 3,
+      "maxAdminDevices": 1,
+      "maxBranches": 1,
+      "maxWarehouses": 1,
+      "allowCloudBackup": false,
+      "maxInvoices": 0,
+      "maxItems": 0,
+      "popular": false,
+      "enabled": true,
+      "featuresAr": [
+        "كل مزايا المجانية + نقطة بيع POS سريعة",
+        "حتى 3 عمال بصلاحيات مخصصة + جهاز مدير واحد",
+        "فرع واحد ومستودع واحد",
+        "تقارير الأرباح وأعمار الديون والضرائب"
+      ]
+    },
+    {
+      "id": "business",
+      "no": 2,
+      "nameAr": "ألترا (Ultra)",
+      "nameEn": "Ultra",
+      "taglineAr": "للشركات المتنامية متعددة الفروع",
+      "monthly": 29,
+      "yearly": 290,
+      "currency": "USD",
+      "trialDays": 14,
+      "maxUsers": 5,
+      "maxAdminDevices": 2,
+      "maxBranches": 2,
+      "maxWarehouses": 2,
+      "allowCloudBackup": true,
+      "maxInvoices": 0,
+      "maxItems": 0,
+      "popular": true,
+      "enabled": true,
+      "featuresAr": [
+        "5 عمال + تسجيل دخول المدير على جهازين",
+        "إدارة فرعين ومستودعين",
+        "الرواتب والأصول الثابتة والتصنيع والمقاولات",
+        "نسخ احتياطي ومزامنة سحابية مشفرة"
+      ]
+    },
+    {
+      "id": "enterprise",
+      "no": 3,
+      "nameAr": "برو ألترا (Pro Ultra)",
+      "nameEn": "Pro Ultra",
+      "taglineAr": "للمؤسسات والشركات الكبرى بلا حدود",
+      "monthly": 59,
+      "yearly": 590,
+      "currency": "USD",
+      "trialDays": 14,
+      "maxUsers": 10,
+      "maxAdminDevices": 5,
+      "maxBranches": 0,
+      "maxWarehouses": 0,
+      "allowCloudBackup": true,
+      "maxInvoices": 0,
+      "maxItems": 0,
+      "popular": false,
+      "enabled": true,
+      "featuresAr": [
+        "10 عمال + 5 أجهزة مدير متزامنة",
+        "عدد غير محدود (∞) من الفروع والمستودعات",
+        "نسخ احتياطي ومزامنة سحابية فورية",
+        "المستشار الذكي والتحليلات المتقدمة"
+      ]
+    }
+  ],
+  "contact": {
+    "whatsapp": "963900000000",
+    "email": "support@sanadpos.app",
+    "telegram": "https://t.me/sanadpos"
+  }
+}
