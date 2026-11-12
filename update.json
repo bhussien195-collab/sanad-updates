@@ -1,31 +1,40 @@
 {
-  "versionCode": 4,
-  "versionName": "1.3",
+  "versionCode": 5,
+  "versionName": "2.0",
+  "updatedAt": "2026-11-12T04:04:28.957Z",
+  "supabaseUrl": "https://eqpfbvsdwzisnecmpoio.supabase.co",
+  "marketing": {
+    "heroTitle": "منظومة Sanad POS المحاسبية المتكاملة — إدارة ذكية لأعمالك من أي مكان",
+    "contactWhatsapp": "963900000000",
+    "contactEmail": "bhussien195@gmail.com",
+    "promoVideoUrl": "",
+    "downloadAndroid": "",
+    "downloadWindows": "",
+    "downloadMacos": "",
+    "downloadIos": "",
+    "downloadWeb": ""
+  },
   "plans": [
     {
       "id": "free",
       "no": 0,
-      "nameAr": "المجانية (Free)",
-      "nameEn": "Free",
-      "taglineAr": "لتجربة المنظومة والمتاجر الناشئة",
+      "nameAr": "التجريبية المجانية (Free)",
+      "nameEn": "Free Trial",
+      "taglineAr": "لتجربة النظام واستكشاف الوحدات المحاسبية",
       "monthly": 0,
       "yearly": 0,
       "currency": "USD",
-      "trialDays": 0,
+      "trialDays": 14,
       "maxUsers": 1,
       "maxAdminDevices": 1,
       "maxBranches": 1,
       "maxWarehouses": 1,
       "allowCloudBackup": false,
-      "maxInvoices": 0,
-      "maxItems": 0,
-      "popular": false,
-      "enabled": true,
       "featuresAr": [
-        "فواتير وأصناف وعمليات محاسبية غير محدودة (∞)",
-        "عامل واحد + جهاز مدير واحد",
+        "محاسبة قيود مزدوجة وفواتير غير محدودة",
+        "مستخدم واحد وجهاز مدير واحد",
         "فرع واحد ومستودع واحد",
-        "نسخ احتياطي محلي مشفر (AES-256-GCM)"
+        "نسخ احتياطي محلي مشفر"
       ]
     },
     {
@@ -43,15 +52,11 @@
       "maxBranches": 1,
       "maxWarehouses": 1,
       "allowCloudBackup": false,
-      "maxInvoices": 0,
-      "maxItems": 0,
-      "popular": false,
-      "enabled": true,
       "featuresAr": [
-        "كل مزايا المجانية + نقطة بيع POS سريعة",
-        "حتى 3 عمال بصلاحيات مخصصة + جهاز مدير واحد",
+        "نقطة بيع POS سريعة + باركود وطابعة حرارية",
+        "حتى 3 عمال بصلاحيات مستقلة",
         "فرع واحد ومستودع واحد",
-        "تقارير الأرباح وأعمار الديون والضرائب"
+        "نسخ احتياطي محلي على الهاتف والحاسوب"
       ]
     },
     {
@@ -69,15 +74,11 @@
       "maxBranches": 2,
       "maxWarehouses": 2,
       "allowCloudBackup": true,
-      "maxInvoices": 0,
-      "maxItems": 0,
-      "popular": true,
-      "enabled": true,
       "featuresAr": [
         "5 عمال + تسجيل دخول المدير على جهازين",
         "إدارة فرعين ومستودعين",
-        "الرواتب والأصول الثابتة والتصنيع والمقاولات",
-        "نسخ احتياطي ومزامنة سحابية مشفرة"
+        "الرواتب والأصول الثابتة والتصنيع (BOM)",
+        "نسخ احتياطي محلي + مزامنة سحابية فورية"
       ]
     },
     {
@@ -85,7 +86,7 @@
       "no": 3,
       "nameAr": "برو ألترا (Pro Ultra)",
       "nameEn": "Pro Ultra",
-      "taglineAr": "للمؤسسات والشركات الكبرى بلا حدود",
+      "taglineAr": "للمؤسسات والشركات الكبرى",
       "monthly": 59,
       "yearly": 590,
       "currency": "USD",
@@ -95,21 +96,28 @@
       "maxBranches": 0,
       "maxWarehouses": 0,
       "allowCloudBackup": true,
-      "maxInvoices": 0,
-      "maxItems": 0,
-      "popular": false,
-      "enabled": true,
       "featuresAr": [
         "10 عمال + 5 أجهزة مدير متزامنة",
-        "عدد غير محدود (∞) من الفروع والمستودعات",
-        "نسخ احتياطي ومزامنة سحابية فورية",
-        "المستشار الذكي والتحليلات المتقدمة"
+        "فروع غير محدودة ومستودعات غير محدودة (∞)",
+        "جميع الوحدات المحاسبية والتصنيع والضرائب",
+        "مزامنة سحابية فورية ودعم فني ذو أولوية"
       ]
     }
   ],
-  "contact": {
-    "whatsapp": "963900000000",
-    "email": "support@sanadpos.app",
-    "telegram": "https://t.me/sanadpos"
-  }
+  "posts": [
+    {
+      "id": 1,
+      "badge": "إصدار رسمي v2.0",
+      "date": "2026-11-12",
+      "title": "إطلاق منظومة Sanad POS بهويتها البصرية الرسمية وربطها السحابي المباشر",
+      "body": "تحكم كامل في المبيعات، الكاشير POS، المستودعات، التصنيع (BOM)، والقيود المحاسبية المزدوجة مع تشفير AES-256-GCM."
+    },
+    {
+      "id": 2,
+      "badge": "عرض خاص",
+      "date": "2026-11-12",
+      "title": "فواتير وأصناف غير محدودة (∞) في جميع الباقات مع دعم الفوترة الضريبية QR",
+      "body": "اختر الباقة المناسبة لحجم فريقك وفروعك وتواصل معنا مباشرة للحصول على كود التفعيل الفوري."
+    }
+  ]
 }
